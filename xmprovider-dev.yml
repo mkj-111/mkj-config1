@@ -11,13 +11,7 @@ spring:
       type: rabbit
   sleuth:
     sampler:
-      probability: 1  
-  cloud:
-    alicloud:
-      access-key: LTAI4GBqg3wNkJproyuYYQU1
-      secret-key: TIpNgyexjiny905665KqJkDVZjYSIq
-      oss:
-        endpoint: oss-cn-beijing.aliyuncs.com    
+      probability: 1     
       
 eureka:
   client:
